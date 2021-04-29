@@ -63,14 +63,3 @@ where ae1.year <1980 and ae2.year >1980;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
