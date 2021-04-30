@@ -21,8 +21,8 @@ select title from Movie;
 select m.title
 from Movie m
 where m.mID not in (select m.mID 
-				 from (Reviewer rv join Rating r on rv.rID = r.rID) join Movie m on r.mID = m.mID
-				 where rv.name = 'Chris Jackson');
+		    from (Reviewer rv join Rating r on rv.rID = r.rID) join Movie m on r.mID = m.mID
+		    where rv.name = 'Chris Jackson');
 
 
 ### Q5 For all pairs of reviewers such that both reviewers gave a rating to the same movie, return the names of both reviewers. 
